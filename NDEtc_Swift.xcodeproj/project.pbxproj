@@ -10,7 +10,6 @@
 		BA337A4E24E4F4DC0061B1DC /* NDEtc_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA337A4424E4F4DC0061B1DC /* NDEtc_Swift.framework */; };
 		BA337A5324E4F4DC0061B1DC /* NDEtc_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA337A5224E4F4DC0061B1DC /* NDEtc_SwiftTests.swift */; };
 		BA337A5524E4F4DC0061B1DC /* NDEtc_Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = BA337A4724E4F4DC0061B1DC /* NDEtc_Swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BA337ADA24E545480061B1DC /* NDRefreshableViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA337AD924E545470061B1DC /* NDRefreshableViewModelProtocol.swift */; };
 		BA337ADE24E545E00061B1DC /* NDTagsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA337ADD24E545E00061B1DC /* NDTagsList.swift */; };
 		DC883D61F3597757568E518F /* Pods_NDEtc_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F14B91100FFB3960EAA0CC7A /* Pods_NDEtc_Swift.framework */; };
 		EA7649958023DA463E42C894 /* Pods_NDEtc_Swift_NDEtc_SwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1F4294079D5AB3064873A8C /* Pods_NDEtc_Swift_NDEtc_SwiftTests.framework */; };
@@ -42,7 +41,6 @@
 		BA337A6424E4F5870061B1DC /* swift-format_5.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = "swift-format_5.1"; sourceTree = "<group>"; };
 		BA337A6524E4F5870061B1DC /* .swift-format */ = {isa = PBXFileReference; lastKnownFileType = text; path = ".swift-format"; sourceTree = "<group>"; };
 		BA337A6624E4F5880061B1DC /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		BA337AD924E545470061B1DC /* NDRefreshableViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDRefreshableViewModelProtocol.swift; sourceTree = "<group>"; };
 		BA337ADD24E545E00061B1DC /* NDTagsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDTagsList.swift; sourceTree = "<group>"; };
 		BA337AE024E5496A0061B1DC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BAD77ED5B7A0FD5E73669A96 /* Pods-NDEtc_Swift-NDEtc_SwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NDEtc_Swift-NDEtc_SwiftTests.release.xcconfig"; path = "Target Support Files/Pods-NDEtc_Swift-NDEtc_SwiftTests/Pods-NDEtc_Swift-NDEtc_SwiftTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -119,7 +117,6 @@
 				BA337A4724E4F4DC0061B1DC /* NDEtc_Swift.h */,
 				BA337A4824E4F4DC0061B1DC /* Info.plist */,
 				BA337ADC24E545A10061B1DC /* NDTagsList */,
-				BA337ADB24E545720061B1DC /* NDMVVM_Swift */,
 			);
 			path = NDEtc_Swift;
 			sourceTree = "<group>";
@@ -154,14 +151,6 @@
 				BA337A6424E4F5870061B1DC /* swift-format_5.1 */,
 			);
 			path = Tools;
-			sourceTree = "<group>";
-		};
-		BA337ADB24E545720061B1DC /* NDMVVM_Swift */ = {
-			isa = PBXGroup;
-			children = (
-				BA337AD924E545470061B1DC /* NDRefreshableViewModelProtocol.swift */,
-			);
-			name = NDMVVM_Swift;
 			sourceTree = "<group>";
 		};
 		BA337ADC24E545A10061B1DC /* NDTagsList */ = {
@@ -350,7 +339,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA337ADE24E545E00061B1DC /* NDTagsList.swift in Sources */,
-				BA337ADA24E545480061B1DC /* NDRefreshableViewModelProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
